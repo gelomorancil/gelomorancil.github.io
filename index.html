@@ -29,7 +29,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li> -->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                 </ul>
             </div>
         </nav>
@@ -172,54 +172,78 @@
             </section>
             <hr class="m-0" />
             <!-- Portfolio-->
-            <!-- <section class="resume-section" id="portfolio">
+            <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Portfolio</h2>
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticbackdrop"> Facebook Ads </button>
-                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#staticbackdrop"> Posters </button>
-                      
-                      <!-- Modal -->
-                      <div class="modal fade" id="staticbackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Facebook Ads</h5>
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <!-- CAROUSEL -->
-                                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                                        <div class="carousel-inner">
-                                          <div class="carousel-item active">
-                                            <img src="./media/portfolio/facebook_ads/1.jpg" class="d-block w-100" alt="...">
-                                          </div>
-                                          <div class="carousel-item">
-                                            <center><img src="./media/portfolio/facebook_ads/2.jpg" class="d-block w-100" alt="..."></center>
-                                          </div>
-                                          <div class="carousel-item">
-                                            <center><img src="./media/portfolio/facebook_ads/3.jpg" class="d-block w-100" alt="..."></center>
-                                          </div>
+                    <h2>Portfolio</h2>
+                    <!-- CAROUSEL -->
+                    <div class="row">
+                        <div class="col-6">
+                            <section class="gallery min-vh-100">
+                                <div class="container-lg">
+                                    <div class="subheading mb-3">Facebook Ads</div>
+                                    <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/1.jpg" alt="gallery" class="gallery-item">
                                         </div>
-                                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                          <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                          <span class="visually-hidden">Next</span>
-                                        </button>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/2.jpg" alt="gallery" class="gallery-item">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/3.jpg" alt="gallery" class="gallery-item">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/4.jpg" alt="gallery" class="gallery-item">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/5.jpg" alt="gallery" class="gallery-item">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/6.jpg" alt="gallery" class="gallery-item">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/7.jpg" alt="gallery" class="gallery-item">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/8.jpg" alt="gallery" class="gallery-item">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/9.jpg" alt="gallery" class="gallery-item">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/10.jpg" alt="gallery" class="gallery-item">
+                                        </div>
+                                        <div class="col">
+                                            <img src="./media/portfolio/facebook_ads/11.jpg" alt="gallery" class="gallery-item">
+                                        </div>
                                     </div>
+                                </div>
+                            </section>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="gallery-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-md">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="media/portfolio/1.jpg" class="modal-img" alt="modal img">
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
                             </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                          </div>
                         </div>
-                      </div>
-                           
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            
+                        </div>
+                    </div>
+                    
                 </div>
-            </section> -->
+            </section>
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
